@@ -1,0 +1,120 @@
+# Block all bots by default
+User-agent: *
+Disallow: /
+
+# Allow Googlebot but restrict specific directories
+User-agent: Googlebot
+Disallow: /browse
+Disallow: /sculpts
+Disallow: /archviz
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
+
+
+# Allow AdsBot-Google but restrict specific directories
+User-agent: AdsBot-Google
+Disallow: /browse
+Disallow: /sculpts
+Disallow: /archviz
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
+
+
+# Allow Googlebot-Image but restrict specific directories
+User-agent: Googlebot-Image
+Disallow: /browse
+Disallow: /sculpts
+Disallow: /archviz
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
+
+
+# Allow Bingbot but restrict specific directories
+User-agent: bingbot
+Disallow: /browse
+Disallow: /sculpts
+Disallow: /archviz
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
+
+# Allow Yahoo's Slurp bot but restrict specific directories
+User-agent: Slurp
+Disallow: /browse/
+Disallow: /sculpts/
+Disallow: /archviz/
+Disallow: /browse?
+Disallow: /sculpts?
+Disallow: /archviz?
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
+
+# Allow DuckDuckGo bot but restrict specific directories
+User-agent: DuckDuckBot
+Disallow: /browse/
+Disallow: /sculpts/
+Disallow: /archviz/
+Disallow: /browse?
+Disallow: /sculpts?
+Disallow: /archviz?
+Allow: /browse/scans/faces$
+Allow: /browse/scans/full-body$
+Allow: /browse/scans/full-body-poses$
+Allow: /browse/scans/full-body-couples$
+Allow: /browse/scans/full-body-couples-poses$
+Allow: /browse/scans/full-body-clothed$
+Allow: /browse/scans/full-body-clothed-poses$
+Allow: /browse/scans/hands$
+Allow: /sculpts/faces$
+Allow: /sculpts/hands$
+Allow: /sculpts/gloves$
+Allow: /archviz$
